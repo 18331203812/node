@@ -5,7 +5,7 @@ const server  = express();
 server.use(express.static('./www'));
 server.get('/',(req,res)=>{
     res.sendFile(
-        path.resolve('http://localhost/node/Personal/gerenzhuye.html')
+        path.resolve('./Personal/gerenzhuye.html')
     )
 });
 server.listen(80)
