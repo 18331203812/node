@@ -8,4 +8,4 @@ server.get('/',(req,res)=>{
         path.resolve('http://localhost/node/Personal/gerenzhuye.html')
     )
 });
-server.listen(100)
+server.listen(80)
