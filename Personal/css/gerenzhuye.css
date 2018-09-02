@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing:border-box;
+}
+.container{
+    width: 100%;
+    height: 58px;
+
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 58px;
+    background: #212A3F;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    padding: 0  15px;
+    position: fixed;
+    left: 0 ;
+    top: 0;
+    z-index: 999;
+}
+.nav .left{
+    font-size: 20px;
+    color: red;
+    line-height: 58px;
+    float: left;
+}
+.nav .right {
+    font-size: 18px;
+    line-height: 58px;
+    color: #fff;
+    float: right;
+}
+
+.nav .right a.link {
+    color: #fff;
+    display: none;
+    float: right;
+    padding-right: 15px;
+}
+.nav .right a.text {
+    color: #fff;
+    float: right;
+    font-size: 30px;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background: url("../img/zij1.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+    padding-top:180px ;
+
+}
+.banner .banner-center{
+    text-align: center;
+    height: 300px;
+    background: rgba(33, 42, 63, 0.5);
+    padding: 20px 40px;
+    font-size: 22px;
+}
+.banner .banner-center p{
+    color: #fff;
+}
+.banner .banner-center h2{
+    color: #fff;
+    margin: 20px 0;
+    border-top: 7px double #fa3447;
+    border-bottom: 7px double #fa3447;
+    line-height:50px ;
+}
+.banner .banner-center h3{
+    color: #fff;
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+}
+
+.banner .banner-center h4{
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+.banner .banner-center  button{
+    padding: 8px  14px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+.main {
+    width: 100%;
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+.main h1{
+    color: #8AB839;
+    font-size: 29px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.main p{
+    margin: 0 88px;
+    text-align: left;
+    font-size: 16px;
+}
+.code .container{
+    width: 100%;
+    height: 100%;
+    padding:60px 35px ;
+    text-align: center;
+    background: url("../img/bg.png") no-repeat center/cover;
+}
+.code .container h1{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.code .container h2{
+
+    color: #fff;
+}
+.code .container  p{
+    color: #fff;
+}
+.code  .container ul li i{
+    font-size: 80px;
+    color: #8AB839;
+}
+.code  .container ul li {
+    padding: 50px 0 0 0;
+}
+.article .container{
+      width: 100%;
+         height: 100%;
+      padding:60px 15px ;
+      text-align: center;
+  }
+.article .container h1{
+    margin: 30px 0;
+}
+.article .container ul li{
+    margin: 20px 0;
+    padding: 0 15px;
+}
+.article .container ul li .left {
+    width: 100%;
+    height: 220px;
+
+    overflow: hidden;
+    background: url("../img/banno.jpg") no-repeat center/cover;
+}
+
+.article .container ul li .left1 {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bannr.jpg") no-repeat center/cover;
+}
+.article .container ul li .left2 {
+    width: 100%;
+    height: 220px;
+    background: url("../img/right11.jpg") no-repeat center/cover;
+}
+.article .container ul li .left3 {
+    width: 100%;
+    height: 220px;
+    background: url("../img/111.jpg") no-repeat center/cover;
+}
+.article .container ul li .left4 {
+    width: 100%;
+    height: 220px;
+    background: url("../img/story1.png") no-repeat center/cover;
+}
+.article .container ul li .left5 {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg.png") no-repeat center/cover;
+}
+
+.article .container ul li .right {
+    width: 100%;
+    height: 50px;
+    background: #8ab839;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+.article .container ul li .right h3 {
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+}
+.section{
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 42, 63, 1);
+    padding: 50px 0;
+}
+.section ul li{
+
+
+    text-align: center;
+    line-height: 63px;
+
+}
+.section .container ul li i{
+    font-size: 50px;
+    color: #8ab839;
+
+}
+.section .container ul li h6{
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+
+.footer .container{
+    width: 100%;
+    height: 100%;
+    padding: 30px  30px ;
+    text-align: center;
+}
+.footer .container .input-group{
+    display: block;
+    float: left;
+    height: 80px;
+}
+.footer .container span{
+    font-size: 30px;
+    text-align: left;
+}
+.footer .container  .bottom{
+    text-align: left;
+    float: left;
+}
+.footer .container  .bottom h1{
+    font-size: 26px;
+    margin-top: 50px;
+}
+.footer .container  .bottom i{
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #8ab839;
+}
+.footer-bottom .container{
+    width: 100%;
+    height: 220px;
+    background: rgba(33, 42, 63, 0.9)  url("../img/notes-bg.jpg") no-repeat center/cover;
+}
+.footer-bottom .container .center{
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 42, 63, 0.9) ;
+    text-align: center;
+    padding: 80px 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer-bottom .container .center span{
+    width: 100px;
+
+
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media screen and (max-width: 768px){
+    .section{
+
+        height: 480px;
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .nav .right a.link {
+        display: block;
+    }
+    .nav .right a.text{
+        display: none;
+    }
+    .banner .banner-center{
+        height: 365px;
+    }
+    .main p{
+        text-align: center;
+    }
+    .code  .container ul li .right h1{
+        text-align: left;
+    }
+    .code  .container ul li .right p{
+        text-align: left;
+        width: 500px;
+    }
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media screen and (min-width: 992px) {
+    .banner .banner-center{
+        height: 365px;
+    }
+    .code  .container ul li .right p{
+
+        width: 360px;
+    }
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media screen and (min-width: 1200px) {
+    .article .container{
+        padding: 0  120px;
+    }
+}

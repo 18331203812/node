@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 文字标签 行内标签-->
+	<b>加粗</b>
+	<strong>强调</strong>
+	<em>倾斜</em>
+	<i>倾斜  字体图标</i>
+	<s>	删除1</s>
+	<del>删除2</del>
+	<u>下划线</u>
+	<!-- target:链接在哪里打开 :_self在当前页面打开 _blank在新标签中打开 -->
+	<a href=""  targer="_blank">链接</a>
+	<span>行内文字</span>
+	<!-- 水平线: 块标签  高度 宽度 颜色-->
+	<hr size="10px" width="500px" color="red">
+	<!-- 块标签 -->
+	<p>段落</p>
+	<pre>预文本预文本预文本
+	预文本预文本</pre>
+	<!-- pre能识别回车 -->
+	<h1>标题</h1>
+
+	<!-- 列表标签 -->
+	1.无序列表:disc 黑心圆圈 circle 空心圆  square正方形
+	<ul type="">
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	2.有序列表:  type=  :a A i 
+	<ol>
+		<li></li>
+		<li></li>
+	</ol>
+	3.自定义列表:
+	<dl>第一章</dl>
+	<dt>第一节</dt>
+	<dd>1.1</dd>
+
+	<dl>
+		<dt>第一节</dt>
+		<dd>1.1</dd>
+
+		<dt>第二节</dt>
+		<dd>2.1</dd>
+	</dl>
+
+	<!-- 表单标签 -->
+	<form action="">
+		<input type="text" placeholder="输入文本">
+		<input type="password" placeholder="密码">
+
+		<!-- 上传文件 -->
+		<input type="file"  placeholder="上传文件">
+
+		<!-- 颜色 -->
+		<input type="color"  颜色>
+
+		<!-- 多选框 <--><br>
+		<input type="checkbox" name="hobby"><br>
+		<input type="checkbox" name="hobby"><br>
+		<input type="checkbox" name="hobby"><br>
+
+		<!-- 单选框 -->
+		你的职业<br>
+		<input type="radio" name="job">教师<br>
+		<input type="radio" name="job">教师<br>
+		<input type="radio" name="job">教师<br>
+
+		<input type="submit"   value="提交">
+
+		<!-- 下拉列表 -->
+		<select name="" id="">89</select>
+		<select name="" id="">99</select>
+		<select name="" id="">10</select>
+		<select name="" id="">11</select>
+
+		<!-- 输入文本框 -->
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<!-- 时间 -->
+		<input type="data">
+		<input type="month">
+		<input type="time">
+		<input type="datetime-local">
+		<input type="week">
+
+		数字<input type="number" min="0" max="100" step="3">
+		范围<input type="range" min="0" max="50" step="2">
+		电话号码 <input type="tel">
+		邮箱 <input type="url">
+
+		<button>新标签</button>
+		<input type="reset" value="重置">
+		<input type="submit" value="提交">
+
+	</form>
+
+	<!-- 表格标签  cellpadding合并单元格之间的距离  cellpadding  单元格与内容之间的距离   contenteditable 内容可编辑-->
+	<table  border="1"  cellpadding="0" contenteditable="true">
+		<thead>
+			<caption>信息表头</caption>
+			<tr>
+				<td>编号</td>    单元格
+				<td>姓名</td>
+				<!-- rowspan 合并行  colspan 合并列 -->
+				<td  colspan="3">住址</td>  合并列
+			</tr>
+		</thead>
+		<thead>
+			<dr>
+				<td></td>
+			</dr>
+			<dr>
+				<td></td>
+			</dr>
+			<dr>
+				<td></td>
+			</dr>
+		</thead>
+		<thead></thead>
+	</table>
+
+
+	<!-- html5语义化的标签 -->
+	 <div class="head"></div>
+	 <header>头部</header>
+	 <nav>导航</nav>
+	 <section>分块</section>
+	 <main>主体</main>
+	 <aside>侧变栏</aside>
+	 <article>文章</article>
+	 <code>代码</code>
+	 <hgroup>标题组</hgroup>
+	 <footer>底部</footer>
+
+	 <progress  min="2" max="100"  step="10">进度条</progress>
+	 <meter>进度</meter>
+	<!-- 音视频 画布 -->
+	<!-- 音频 -->
+	<audio src=""></audio>
+	<!-- 视频    controls 控制条   autoplay 自动播放   loop 循环播放-->
+	 <video src=""  controls=""></video>
+	 <canvas></canvas>
+</body>
+</html>
